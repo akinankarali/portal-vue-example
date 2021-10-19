@@ -28,5 +28,6 @@ export default {
 .basket img {
     height: 24px;
     width: 24px;
+    cursor: pointer;
 }
 </style>
