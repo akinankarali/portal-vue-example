@@ -2,9 +2,11 @@
   <header class="header">
     <div class="header-inner">
         <h1 class="logo">PortalVue</h1>
-       <div class="basket">
-           <img src="../assets/shopping-cart.png" alt="">
+        <div class="basket">
+            <img src="../assets/shopping-cart.png" alt="">
+            <portal-target name="basket" />
         </div>
+       
     </div>
   </header>
 </template>
